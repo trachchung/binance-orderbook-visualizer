@@ -4,6 +4,10 @@
 
 This project is a real-time visualization tool for the Binance perpetual swap order book. The tool uses L2 data's change in time to naively estimate a L3 order book microstructure. we can change to more complex model to estimate the L3 book later.
 
+## Diagram
+
+![Sequence Diagram](code-flow.png)
+
 ## Features
 
 - **Real-time Data**: Streams order book data using Binance's WebSocket API.
